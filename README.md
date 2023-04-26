@@ -10,4 +10,4 @@ The "ERC721Total.sol" is an ERC721 contract that combines both the Simple and Ju
 
 The "IERC2981Royalty.sol" is an ERC2981 contract that's meant to work in tandem with the ERC721Total contract as the receiver and distributor of the royalties. It has not been tested and was created with help from chatGPT.
 
-The "NftRoyaltyDistribution.sol" is a custom contract that sets aside a fraction of the contract balance for each NFT holder and then allows the holder to withdraw their share whenever. Currently the "snapshot" for setting aside the correct rewards is just triggered whenever the disburseFunds() contract is called. It has not been tested and was created with help from chatGPT.
+The "NftRoyaltyDistribution.sol" is a custom contract that sets aside a fraction of the contract balance for each NFT holder and then allows the holder to withdraw their share whenever. Currently the "snapshot" for setting aside the correct rewards is just triggered whenever the disburseFunds() contract is called. It has been tested with one royalty recipient and was created with help from chatGPT.
